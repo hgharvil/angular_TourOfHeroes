@@ -1,0 +1,12 @@
+In order to install angular we use:
+npm install -g @angular/cli
+
+In order to create a workspace and initial application we use:
+ng new my-app
+(we would then proceed to choose features in the terminal menu before the new project is generated)
+
+In ordere to run the project we use:
+cd my-app
+ng serve --open
+(or ng serve -o)
+This will have the browser open the url "http://localhost:4200/"

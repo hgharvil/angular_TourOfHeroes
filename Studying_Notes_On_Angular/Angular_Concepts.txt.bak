@@ -1,0 +1,10 @@
+Angular components:
+- Components are the fundamental building blocks of Angular applications. They display data on the screen, listen for user input, and take action based on that input.
+- The implementation of components are shared between a TypeScript, a HTML file and a CSS file. There's also an spec.ts file for testing purposes that is generated whenever we used the generate command.
+- new components are generated in project_folder/src/app/component_name when using ng generate component.
+
+Data binding:
+- Interpolation binding:
+-- Syntax: {{variable}}
+-- Can be used to show an item from a TypeScript file into an HTML file.
+

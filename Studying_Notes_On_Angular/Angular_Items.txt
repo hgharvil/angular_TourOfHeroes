@@ -1,0 +1,5 @@
+src/app/:
+The initial page is the application shell which is controlled by the angular component called AppComponent. The files inside the app folder are the AppComponent files.
+
+src/styles.css:
+This is a global stylesheet document. If the entire app needs to be under specific styles, this is where the base styles need to be.
