@@ -7,9 +7,17 @@ Angular components:
 --- "selector" which refers to the component's CSS element selector. This element selector matches the name of the HTML element that identifies this component within a parent component's template. It is essentially this component's identifier when being referenced in an html file of another component.
 --- "templateUrl" which refers to the location of the component's template file;
 --- "styleUrls" which refers to the location of the component's private CSS styles.
+- You may access a component class' lifecycle hook like ngOnInit() by using "implements OnInit" after the class' name.
+-- Angular calls ngOnInit() shortly after creating a component. It's a good place to put initialization logic.
+- You may want to export the component's class by using "export" before the class declaration in order to import the class somewhere else.
 
 Data binding:
 - Interpolation binding:
 -- Syntax: {{variable}}
 -- Can be used to show an item from a TypeScript file into an HTML file.
+
+Pipe:
+- Syntax: {{variable | pipe}} e.g.: {{hero.name | uppercase}} Details
+- Can be used to alter variable before rendering
+
 

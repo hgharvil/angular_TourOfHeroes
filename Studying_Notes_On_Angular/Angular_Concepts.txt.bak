@@ -2,6 +2,11 @@ Angular components:
 - Components are the fundamental building blocks of Angular applications. They display data on the screen, listen for user input, and take action based on that input.
 - The implementation of components are shared between a TypeScript, a HTML file and a CSS file. There's also an spec.ts file for testing purposes that is generated whenever we used the generate command.
 - new components are generated in project_folder/src/app/component_name when using ng generate component.
+- Components need to have the decorator @Component 
+-- The @Component decorator function specifies metadata for the component. The auto-generated metadata are:
+--- "selector" which refers to the component's CSS element selector. This element selector matches the name of the HTML element that identifies this component within a parent component's template. It is essentially this component's identifier when being referenced in an html file of another component.
+--- "templateUrl" which refers to the location of the component's template file;
+--- "styleUrls" which refers to the location of the component's private CSS styles.
 
 Data binding:
 - Interpolation binding:
